@@ -1,0 +1,33 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+    min-height: 100vh;
+}
+
+.banner-2 {
+    background-image: url(/assets/img/pol.jpg);
+    float: left;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    /*no se repitira*/
+    background-size: cover;
+    /*imagen al 100% del ancho*/
+    background-attachment: fixed;
+    /*posicion fija para la imagen*/
+}
+
+.radio {
+    border-radius: 25px;
+}
+
+.paz {
+    margin-top: 70px;
+}
+
+.manu {
+    margin-left: 860px;
+}

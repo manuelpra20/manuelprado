@@ -1,0 +1,42 @@
+<p>navbar works!</p>
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark fixed-top scrolling-navbar">
+
+    <mdb-navbar-brand>
+
+        <a class="logo navbar-brand waves-light" mdbWavesEffect href="#">
+            <img class="foca" src="assets\img\aja.png" alt=""> Manuel Prado Web
+        </a>
+
+    </mdb-navbar-brand>
+
+    <links>
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" [routerLink]="['home']" mdbWavesEffect>
+                    <mdb-icon fas icon="home"></mdb-icon>Inicio</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" [routerLink]="['about']" mdbWavesEffect>
+                    <mdb-icon fas icon="user"></mdb-icon>Sobre Mi<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" [routerLink]="['services']" mdbWavesEffect>
+                    <mdb-icon fas icon="cogs"></mdb-icon>Servicios</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" [routerLink]="['briefcase']" mdbWavesEffect>
+                    <mdb-icon fas icon="briefcase"></mdb-icon>Portafolio</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" [routerLink]="['contact']" mdbWavesEffect>
+                    <mdb-icon fas icon="address-book"></mdb-icon>Contacto</a>
+            </li>
+        </ul>
+        <!-- Links -->
+    </links>
+
+</mdb-navbar>
+<!--Navbar-->

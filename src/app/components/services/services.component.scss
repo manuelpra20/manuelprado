@@ -1,0 +1,16 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+    min-height: 100vh;
+}
+
+.uju {
+    filter: brightness(95%);
+}
+
+.uju:hover {
+    filter: brightness(100%);
+}
